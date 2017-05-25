@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224011EC1ED6CC8500C22F86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224011EB1ED6CC8500C22F86 /* main.m */; };
+		224011EF1ED6CC8500C22F86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224011EE1ED6CC8500C22F86 /* AppDelegate.m */; };
+		224011F21ED6CC8500C22F86 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224011F11ED6CC8500C22F86 /* ViewController.m */; };
+		224011F51ED6CC8500C22F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224011F31ED6CC8500C22F86 /* Main.storyboard */; };
+		224011F71ED6CC8500C22F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224011F61ED6CC8500C22F86 /* Assets.xcassets */; };
+		224011FA1ED6CC8500C22F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224011F81ED6CC8500C22F86 /* LaunchScreen.storyboard */; };
+		224012021ED6CD0500C22F86 /* ACU.plist in Resources */ = {isa = PBXBuildFile; fileRef = 224012011ED6CD0500C22F86 /* ACU.plist */; };
+		224012111ED6CD4B00C22F86 /* ZIKMVVMAbstractCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012061ED6CD4B00C22F86 /* ZIKMVVMAbstractCollectionViewModel.m */; };
+		224012121ED6CD4B00C22F86 /* ZIKMVVMAbstractRequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012081ED6CD4B00C22F86 /* ZIKMVVMAbstractRequestViewModel.m */; };
+		224012131ED6CD4B00C22F86 /* UICollectionViewCell+MVVMCollectionViewCellConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240120B1ED6CD4B00C22F86 /* UICollectionViewCell+MVVMCollectionViewCellConfigure.m */; };
+		224012141ED6CD4B00C22F86 /* UITableViewCell+MVVMTableViewCellConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240120D1ED6CD4B00C22F86 /* UITableViewCell+MVVMTableViewCellConfigure.m */; };
+		2240121A1ED6CE2F00C22F86 /* ZIKRequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012191ED6CE2F00C22F86 /* ZIKRequestViewModel.m */; };
+		2240121D1ED6D25700C22F86 /* ZIKDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240121C1ED6D25700C22F86 /* ZIKDataModel.m */; };
+		224012241ED6D27900C22F86 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012201ED6D27900C22F86 /* NSObject+YYModel.m */; };
+		224012251ED6D27900C22F86 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012221ED6D27900C22F86 /* YYClassInfo.m */; };
+		224012281ED6D30E00C22F86 /* ZIKCollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012271ED6D30E00C22F86 /* ZIKCollectionViewModel.m */; };
+		2240122B1ED6D56C00C22F86 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240122A1ED6D56C00C22F86 /* UIView+Extension.m */; };
+		224012321ED6D61A00C22F86 /* ZIKMoreCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012301ED6D61A00C22F86 /* ZIKMoreCollectionReusableView.m */; };
+		224012331ED6D61A00C22F86 /* ZIKMoreCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224012311ED6D61A00C22F86 /* ZIKMoreCollectionReusableView.xib */; };
+		224012371ED6EE9200C22F86 /* ZIKHotCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012351ED6EE9200C22F86 /* ZIKHotCollectionViewCell.m */; };
+		224012381ED6EE9200C22F86 /* ZIKHotCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224012361ED6EE9200C22F86 /* ZIKHotCollectionViewCell.xib */; };
+		2240123C1ED6EFF200C22F86 /* ZIKNewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240123A1ED6EFF200C22F86 /* ZIKNewCollectionViewCell.m */; };
+		2240123D1ED6EFF200C22F86 /* ZIKNewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2240123B1ED6EFF200C22F86 /* ZIKNewCollectionViewCell.xib */; };
+		224012411ED6F04C00C22F86 /* ZIKSoldCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240123F1ED6F04C00C22F86 /* ZIKSoldCollectionViewCell.m */; };
+		224012421ED6F04C00C22F86 /* ZIKSoldCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224012401ED6F04C00C22F86 /* ZIKSoldCollectionViewCell.xib */; };
+		224012671ED6FF3400C22F86 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 224012471ED6FF3400C22F86 /* LICENSE */; };
+		224012681ED6FF3400C22F86 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 224012481ED6FF3400C22F86 /* README.md */; };
+		224012691ED6FF3400C22F86 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240124B1ED6FF3400C22F86 /* NSData+ImageContentType.m */; };
+		2240126A1ED6FF3400C22F86 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240124D1ED6FF3400C22F86 /* SDImageCache.m */; };
+		2240126B1ED6FF3400C22F86 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240124F1ED6FF3400C22F86 /* SDWebImageCompat.m */; };
+		2240126C1ED6FF3400C22F86 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012511ED6FF3400C22F86 /* SDWebImageDecoder.m */; };
+		2240126D1ED6FF3400C22F86 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012531ED6FF3400C22F86 /* SDWebImageDownloader.m */; };
+		2240126E1ED6FF3400C22F86 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012551ED6FF3400C22F86 /* SDWebImageDownloaderOperation.m */; };
+		2240126F1ED6FF3400C22F86 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012571ED6FF3400C22F86 /* SDWebImageManager.m */; };
+		224012701ED6FF3400C22F86 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240125A1ED6FF3400C22F86 /* SDWebImagePrefetcher.m */; };
+		224012711ED6FF3400C22F86 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240125C1ED6FF3400C22F86 /* UIButton+WebCache.m */; };
+		224012721ED6FF3400C22F86 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 2240125E1ED6FF3400C22F86 /* UIImage+GIF.m */; };
+		224012731ED6FF3400C22F86 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012601ED6FF3400C22F86 /* UIImage+MultiFormat.m */; };
+		224012741ED6FF3400C22F86 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012621ED6FF3400C22F86 /* UIImageView+HighlightedWebCache.m */; };
+		224012751ED6FF3400C22F86 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012641ED6FF3400C22F86 /* UIImageView+WebCache.m */; };
+		224012761ED6FF3400C22F86 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 224012661ED6FF3400C22F86 /* UIView+WebCacheOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		224011E71ED6CC8400C22F86 /* ZIKCollectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZIKCollectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224011EB1ED6CC8500C22F86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		224011ED1ED6CC8500C22F86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		224011EE1ED6CC8500C22F86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		224011F01ED6CC8500C22F86 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		224011F11ED6CC8500C22F86 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		224011F41ED6CC8500C22F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		224011F61ED6CC8500C22F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		224011F91ED6CC8500C22F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		224011FB1ED6CC8500C22F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224012011ED6CD0500C22F86 /* ACU.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ACU.plist; sourceTree = "<group>"; };
+		224012051ED6CD4B00C22F86 /* ZIKMVVMAbstractCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKMVVMAbstractCollectionViewModel.h; sourceTree = "<group>"; };
+		224012061ED6CD4B00C22F86 /* ZIKMVVMAbstractCollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKMVVMAbstractCollectionViewModel.m; sourceTree = "<group>"; };
+		224012071ED6CD4B00C22F86 /* ZIKMVVMAbstractRequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKMVVMAbstractRequestViewModel.h; sourceTree = "<group>"; };
+		224012081ED6CD4B00C22F86 /* ZIKMVVMAbstractRequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKMVVMAbstractRequestViewModel.m; sourceTree = "<group>"; };
+		2240120A1ED6CD4B00C22F86 /* UICollectionViewCell+MVVMCollectionViewCellConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+MVVMCollectionViewCellConfigure.h"; sourceTree = "<group>"; };
+		2240120B1ED6CD4B00C22F86 /* UICollectionViewCell+MVVMCollectionViewCellConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+MVVMCollectionViewCellConfigure.m"; sourceTree = "<group>"; };
+		2240120C1ED6CD4B00C22F86 /* UITableViewCell+MVVMTableViewCellConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+MVVMTableViewCellConfigure.h"; sourceTree = "<group>"; };
+		2240120D1ED6CD4B00C22F86 /* UITableViewCell+MVVMTableViewCellConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+MVVMTableViewCellConfigure.m"; sourceTree = "<group>"; };
+		2240120F1ED6CD4B00C22F86 /* ZIKMVVMCollectionViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKMVVMCollectionViewModelProtocol.h; sourceTree = "<group>"; };
+		224012101ED6CD4B00C22F86 /* ZIKMVVMRequestViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKMVVMRequestViewModelProtocol.h; sourceTree = "<group>"; };
+		224012181ED6CE2F00C22F86 /* ZIKRequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKRequestViewModel.h; sourceTree = "<group>"; };
+		224012191ED6CE2F00C22F86 /* ZIKRequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKRequestViewModel.m; sourceTree = "<group>"; };
+		2240121B1ED6D25700C22F86 /* ZIKDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKDataModel.h; sourceTree = "<group>"; };
+		2240121C1ED6D25700C22F86 /* ZIKDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKDataModel.m; sourceTree = "<group>"; };
+		2240121F1ED6D27900C22F86 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		224012201ED6D27900C22F86 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		224012211ED6D27900C22F86 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		224012221ED6D27900C22F86 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		224012231ED6D27900C22F86 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		224012261ED6D30E00C22F86 /* ZIKCollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKCollectionViewModel.h; sourceTree = "<group>"; };
+		224012271ED6D30E00C22F86 /* ZIKCollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKCollectionViewModel.m; sourceTree = "<group>"; };
+		224012291ED6D56C00C22F86 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2240122A1ED6D56C00C22F86 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2240122F1ED6D61A00C22F86 /* ZIKMoreCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKMoreCollectionReusableView.h; sourceTree = "<group>"; };
+		224012301ED6D61A00C22F86 /* ZIKMoreCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKMoreCollectionReusableView.m; sourceTree = "<group>"; };
+		224012311ED6D61A00C22F86 /* ZIKMoreCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIKMoreCollectionReusableView.xib; sourceTree = "<group>"; };
+		224012341ED6EE9200C22F86 /* ZIKHotCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKHotCollectionViewCell.h; sourceTree = "<group>"; };
+		224012351ED6EE9200C22F86 /* ZIKHotCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKHotCollectionViewCell.m; sourceTree = "<group>"; };
+		224012361ED6EE9200C22F86 /* ZIKHotCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIKHotCollectionViewCell.xib; sourceTree = "<group>"; };
+		224012391ED6EFF200C22F86 /* ZIKNewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKNewCollectionViewCell.h; sourceTree = "<group>"; };
+		2240123A1ED6EFF200C22F86 /* ZIKNewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKNewCollectionViewCell.m; sourceTree = "<group>"; };
+		2240123B1ED6EFF200C22F86 /* ZIKNewCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIKNewCollectionViewCell.xib; sourceTree = "<group>"; };
+		2240123E1ED6F04C00C22F86 /* ZIKSoldCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZIKSoldCollectionViewCell.h; sourceTree = "<group>"; };
+		2240123F1ED6F04C00C22F86 /* ZIKSoldCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZIKSoldCollectionViewCell.m; sourceTree = "<group>"; };
+		224012401ED6F04C00C22F86 /* ZIKSoldCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZIKSoldCollectionViewCell.xib; sourceTree = "<group>"; };
+		224012471ED6FF3400C22F86 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		224012481ED6FF3400C22F86 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2240124A1ED6FF3400C22F86 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		2240124B1ED6FF3400C22F86 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		2240124C1ED6FF3400C22F86 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		2240124D1ED6FF3400C22F86 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		2240124E1ED6FF3400C22F86 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		2240124F1ED6FF3400C22F86 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		224012501ED6FF3400C22F86 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		224012511ED6FF3400C22F86 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		224012521ED6FF3400C22F86 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		224012531ED6FF3400C22F86 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		224012541ED6FF3400C22F86 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		224012551ED6FF3400C22F86 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		224012561ED6FF3400C22F86 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		224012571ED6FF3400C22F86 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		224012581ED6FF3400C22F86 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		224012591ED6FF3400C22F86 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		2240125A1ED6FF3400C22F86 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		2240125B1ED6FF3400C22F86 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		2240125C1ED6FF3400C22F86 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		2240125D1ED6FF3400C22F86 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		2240125E1ED6FF3400C22F86 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		2240125F1ED6FF3400C22F86 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		224012601ED6FF3400C22F86 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		224012611ED6FF3400C22F86 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		224012621ED6FF3400C22F86 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		224012631ED6FF3400C22F86 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		224012641ED6FF3400C22F86 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		224012651ED6FF3400C22F86 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		224012661ED6FF3400C22F86 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224011E41ED6CC8400C22F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224011DE1ED6CC8400C22F86 = {
+			isa = PBXGroup;
+			children = (
+				224011E91ED6CC8500C22F86 /* ZIKCollectionViewDemo */,
+				224011E81ED6CC8400C22F86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224011E81ED6CC8400C22F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224011E71ED6CC8400C22F86 /* ZIKCollectionViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224011E91ED6CC8500C22F86 /* ZIKCollectionViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				224012151ED6CDAF00C22F86 /* Models */,
+				224012161ED6CDAF00C22F86 /* ViewModels */,
+				224012171ED6CDAF00C22F86 /* Views */,
+				224012031ED6CD4B00C22F86 /* MVVM */,
+				224011ED1ED6CC8500C22F86 /* AppDelegate.h */,
+				224011EE1ED6CC8500C22F86 /* AppDelegate.m */,
+				224011F01ED6CC8500C22F86 /* ViewController.h */,
+				224011F11ED6CC8500C22F86 /* ViewController.m */,
+				224011F31ED6CC8500C22F86 /* Main.storyboard */,
+				224011F61ED6CC8500C22F86 /* Assets.xcassets */,
+				224011F81ED6CC8500C22F86 /* LaunchScreen.storyboard */,
+				224011FB1ED6CC8500C22F86 /* Info.plist */,
+				224012011ED6CD0500C22F86 /* ACU.plist */,
+				224011EA1ED6CC8500C22F86 /* Supporting Files */,
+			);
+			path = ZIKCollectionViewDemo;
+			sourceTree = "<group>";
+		};
+		224011EA1ED6CC8500C22F86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				224012461ED6FF3400C22F86 /* SDWebImage */,
+				224012291ED6D56C00C22F86 /* UIView+Extension.h */,
+				2240122A1ED6D56C00C22F86 /* UIView+Extension.m */,
+				2240121E1ED6D27900C22F86 /* YYModel */,
+				224011EB1ED6CC8500C22F86 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		224012031ED6CD4B00C22F86 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				224012041ED6CD4B00C22F86 /* AbstractViewModels  */,
+				224012091ED6CD4B00C22F86 /* Category */,
+				2240120E1ED6CD4B00C22F86 /* Protocol */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		224012041ED6CD4B00C22F86 /* AbstractViewModels  */ = {
+			isa = PBXGroup;
+			children = (
+				224012051ED6CD4B00C22F86 /* ZIKMVVMAbstractCollectionViewModel.h */,
+				224012061ED6CD4B00C22F86 /* ZIKMVVMAbstractCollectionViewModel.m */,
+				224012071ED6CD4B00C22F86 /* ZIKMVVMAbstractRequestViewModel.h */,
+				224012081ED6CD4B00C22F86 /* ZIKMVVMAbstractRequestViewModel.m */,
+			);
+			path = "AbstractViewModels ";
+			sourceTree = "<group>";
+		};
+		224012091ED6CD4B00C22F86 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2240120A1ED6CD4B00C22F86 /* UICollectionViewCell+MVVMCollectionViewCellConfigure.h */,
+				2240120B1ED6CD4B00C22F86 /* UICollectionViewCell+MVVMCollectionViewCellConfigure.m */,
+				2240120C1ED6CD4B00C22F86 /* UITableViewCell+MVVMTableViewCellConfigure.h */,
+				2240120D1ED6CD4B00C22F86 /* UITableViewCell+MVVMTableViewCellConfigure.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2240120E1ED6CD4B00C22F86 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2240120F1ED6CD4B00C22F86 /* ZIKMVVMCollectionViewModelProtocol.h */,
+				224012101ED6CD4B00C22F86 /* ZIKMVVMRequestViewModelProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		224012151ED6CDAF00C22F86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2240121B1ED6D25700C22F86 /* ZIKDataModel.h */,
+				2240121C1ED6D25700C22F86 /* ZIKDataModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		224012161ED6CDAF00C22F86 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				224012181ED6CE2F00C22F86 /* ZIKRequestViewModel.h */,
+				224012191ED6CE2F00C22F86 /* ZIKRequestViewModel.m */,
+				224012261ED6D30E00C22F86 /* ZIKCollectionViewModel.h */,
+				224012271ED6D30E00C22F86 /* ZIKCollectionViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		224012171ED6CDAF00C22F86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2240122F1ED6D61A00C22F86 /* ZIKMoreCollectionReusableView.h */,
+				224012301ED6D61A00C22F86 /* ZIKMoreCollectionReusableView.m */,
+				224012311ED6D61A00C22F86 /* ZIKMoreCollectionReusableView.xib */,
+				224012341ED6EE9200C22F86 /* ZIKHotCollectionViewCell.h */,
+				224012351ED6EE9200C22F86 /* ZIKHotCollectionViewCell.m */,
+				224012361ED6EE9200C22F86 /* ZIKHotCollectionViewCell.xib */,
+				224012391ED6EFF200C22F86 /* ZIKNewCollectionViewCell.h */,
+				2240123A1ED6EFF200C22F86 /* ZIKNewCollectionViewCell.m */,
+				2240123B1ED6EFF200C22F86 /* ZIKNewCollectionViewCell.xib */,
+				2240123E1ED6F04C00C22F86 /* ZIKSoldCollectionViewCell.h */,
+				2240123F1ED6F04C00C22F86 /* ZIKSoldCollectionViewCell.m */,
+				224012401ED6F04C00C22F86 /* ZIKSoldCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2240121E1ED6D27900C22F86 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				2240121F1ED6D27900C22F86 /* NSObject+YYModel.h */,
+				224012201ED6D27900C22F86 /* NSObject+YYModel.m */,
+				224012211ED6D27900C22F86 /* YYClassInfo.h */,
+				224012221ED6D27900C22F86 /* YYClassInfo.m */,
+				224012231ED6D27900C22F86 /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		224012461ED6FF3400C22F86 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				224012471ED6FF3400C22F86 /* LICENSE */,
+				224012481ED6FF3400C22F86 /* README.md */,
+				224012491ED6FF3400C22F86 /* SDWebImage */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		224012491ED6FF3400C22F86 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				2240124A1ED6FF3400C22F86 /* NSData+ImageContentType.h */,
+				2240124B1ED6FF3400C22F86 /* NSData+ImageContentType.m */,
+				2240124C1ED6FF3400C22F86 /* SDImageCache.h */,
+				2240124D1ED6FF3400C22F86 /* SDImageCache.m */,
+				2240124E1ED6FF3400C22F86 /* SDWebImageCompat.h */,
+				2240124F1ED6FF3400C22F86 /* SDWebImageCompat.m */,
+				224012501ED6FF3400C22F86 /* SDWebImageDecoder.h */,
+				224012511ED6FF3400C22F86 /* SDWebImageDecoder.m */,
+				224012521ED6FF3400C22F86 /* SDWebImageDownloader.h */,
+				224012531ED6FF3400C22F86 /* SDWebImageDownloader.m */,
+				224012541ED6FF3400C22F86 /* SDWebImageDownloaderOperation.h */,
+				224012551ED6FF3400C22F86 /* SDWebImageDownloaderOperation.m */,
+				224012561ED6FF3400C22F86 /* SDWebImageManager.h */,
+				224012571ED6FF3400C22F86 /* SDWebImageManager.m */,
+				224012581ED6FF3400C22F86 /* SDWebImageOperation.h */,
+				224012591ED6FF3400C22F86 /* SDWebImagePrefetcher.h */,
+				2240125A1ED6FF3400C22F86 /* SDWebImagePrefetcher.m */,
+				2240125B1ED6FF3400C22F86 /* UIButton+WebCache.h */,
+				2240125C1ED6FF3400C22F86 /* UIButton+WebCache.m */,
+				2240125D1ED6FF3400C22F86 /* UIImage+GIF.h */,
+				2240125E1ED6FF3400C22F86 /* UIImage+GIF.m */,
+				2240125F1ED6FF3400C22F86 /* UIImage+MultiFormat.h */,
+				224012601ED6FF3400C22F86 /* UIImage+MultiFormat.m */,
+				224012611ED6FF3400C22F86 /* UIImageView+HighlightedWebCache.h */,
+				224012621ED6FF3400C22F86 /* UIImageView+HighlightedWebCache.m */,
+				224012631ED6FF3400C22F86 /* UIImageView+WebCache.h */,
+				224012641ED6FF3400C22F86 /* UIImageView+WebCache.m */,
+				224012651ED6FF3400C22F86 /* UIView+WebCacheOperation.h */,
+				224012661ED6FF3400C22F86 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224011E61ED6CC8400C22F86 /* ZIKCollectionViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224011FE1ED6CC8500C22F86 /* Build configuration list for PBXNativeTarget "ZIKCollectionViewDemo" */;
+			buildPhases = (
+				224011E31ED6CC8400C22F86 /* Sources */,
+				224011E41ED6CC8400C22F86 /* Frameworks */,
+				224011E51ED6CC8400C22F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZIKCollectionViewDemo;
+			productName = ZIKCollectionViewDemo;
+			productReference = 224011E71ED6CC8400C22F86 /* ZIKCollectionViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224011DF1ED6CC8400C22F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = www.appservice.wang;
+				TargetAttributes = {
+					224011E61ED6CC8400C22F86 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HP8U3K66H6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 224011E21ED6CC8400C22F86 /* Build configuration list for PBXProject "ZIKCollectionViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 224011DE1ED6CC8400C22F86;
+			productRefGroup = 224011E81ED6CC8400C22F86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224011E61ED6CC8400C22F86 /* ZIKCollectionViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224011E51ED6CC8400C22F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224012331ED6D61A00C22F86 /* ZIKMoreCollectionReusableView.xib in Resources */,
+				224012381ED6EE9200C22F86 /* ZIKHotCollectionViewCell.xib in Resources */,
+				224012021ED6CD0500C22F86 /* ACU.plist in Resources */,
+				224011FA1ED6CC8500C22F86 /* LaunchScreen.storyboard in Resources */,
+				224011F71ED6CC8500C22F86 /* Assets.xcassets in Resources */,
+				224012421ED6F04C00C22F86 /* ZIKSoldCollectionViewCell.xib in Resources */,
+				224012671ED6FF3400C22F86 /* LICENSE in Resources */,
+				224011F51ED6CC8500C22F86 /* Main.storyboard in Resources */,
+				2240123D1ED6EFF200C22F86 /* ZIKNewCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224011E31ED6CC8400C22F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2240126D1ED6FF3400C22F86 /* SDWebImageDownloader.m in Sources */,
+				224011F21ED6CC8500C22F86 /* ViewController.m in Sources */,
+				224012251ED6D27900C22F86 /* YYClassInfo.m in Sources */,
+				224012701ED6FF3400C22F86 /* SDWebImagePrefetcher.m in Sources */,
+				2240122B1ED6D56C00C22F86 /* UIView+Extension.m in Sources */,
+				224012241ED6D27900C22F86 /* NSObject+YYModel.m in Sources */,
+				224012731ED6FF3400C22F86 /* UIImage+MultiFormat.m in Sources */,
+				2240123C1ED6EFF200C22F86 /* ZIKNewCollectionViewCell.m in Sources */,
+				224011EF1ED6CC8500C22F86 /* AppDelegate.m in Sources */,
+				224012681ED6FF3400C22F86 /* README.md in Sources */,
+				224012131ED6CD4B00C22F86 /* UICollectionViewCell+MVVMCollectionViewCellConfigure.m in Sources */,
+				224012281ED6D30E00C22F86 /* ZIKCollectionViewModel.m in Sources */,
+				224012371ED6EE9200C22F86 /* ZIKHotCollectionViewCell.m in Sources */,
+				2240121D1ED6D25700C22F86 /* ZIKDataModel.m in Sources */,
+				224012751ED6FF3400C22F86 /* UIImageView+WebCache.m in Sources */,
+				2240121A1ED6CE2F00C22F86 /* ZIKRequestViewModel.m in Sources */,
+				224011EC1ED6CC8500C22F86 /* main.m in Sources */,
+				224012691ED6FF3400C22F86 /* NSData+ImageContentType.m in Sources */,
+				224012321ED6D61A00C22F86 /* ZIKMoreCollectionReusableView.m in Sources */,
+				224012741ED6FF3400C22F86 /* UIImageView+HighlightedWebCache.m in Sources */,
+				224012111ED6CD4B00C22F86 /* ZIKMVVMAbstractCollectionViewModel.m in Sources */,
+				2240126F1ED6FF3400C22F86 /* SDWebImageManager.m in Sources */,
+				2240126C1ED6FF3400C22F86 /* SDWebImageDecoder.m in Sources */,
+				2240126E1ED6FF3400C22F86 /* SDWebImageDownloaderOperation.m in Sources */,
+				224012121ED6CD4B00C22F86 /* ZIKMVVMAbstractRequestViewModel.m in Sources */,
+				224012411ED6F04C00C22F86 /* ZIKSoldCollectionViewCell.m in Sources */,
+				224012141ED6CD4B00C22F86 /* UITableViewCell+MVVMTableViewCellConfigure.m in Sources */,
+				2240126B1ED6FF3400C22F86 /* SDWebImageCompat.m in Sources */,
+				224012761ED6FF3400C22F86 /* UIView+WebCacheOperation.m in Sources */,
+				224012711ED6FF3400C22F86 /* UIButton+WebCache.m in Sources */,
+				224012721ED6FF3400C22F86 /* UIImage+GIF.m in Sources */,
+				2240126A1ED6FF3400C22F86 /* SDImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		224011F31ED6CC8500C22F86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224011F41ED6CC8500C22F86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		224011F81ED6CC8500C22F86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224011F91ED6CC8500C22F86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		224011FC1ED6CC8500C22F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		224011FD1ED6CC8500C22F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		224011FF1ED6CC8500C22F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HP8U3K66H6;
+				INFOPLIST_FILE = ZIKCollectionViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.appservice.wang.ZIKCollectionViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		224012001ED6CC8500C22F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HP8U3K66H6;
+				INFOPLIST_FILE = ZIKCollectionViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.appservice.wang.ZIKCollectionViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224011E21ED6CC8400C22F86 /* Build configuration list for PBXProject "ZIKCollectionViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224011FC1ED6CC8500C22F86 /* Debug */,
+				224011FD1ED6CC8500C22F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224011FE1ED6CC8500C22F86 /* Build configuration list for PBXNativeTarget "ZIKCollectionViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224011FF1ED6CC8500C22F86 /* Debug */,
+				224012001ED6CC8500C22F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 224011DF1ED6CC8400C22F86 /* Project object */;
+}
